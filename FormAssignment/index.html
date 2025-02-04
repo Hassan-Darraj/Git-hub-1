@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="firstname">First Name</label>
+        <br>
+        <input type="text" name="fname" id="firstname" maxlength="16" required>
+        <br>
+        <br>
+        <label for="secondname">Second Name</label>
+        <br>
+        <input type="text" name="sname" id="secondname" maxlength="16" >
+        <br>
+        <br>
+        <label for="familyname">Family Name</label>
+        <br>
+        <input type="text" name="famname" id="familyname" maxlength="16" required>
+        <br>
+        <br>
+        <label for="age">Your Age</label>
+        <br>
+        <input type="number" name="age" id="age">
+        <br>
+        <br>
+        <label for="birthday">Birthday</label>
+        <br>
+        <input type="date" name="birthday" id="birthday" max="2025-02-03">
+        <br>
+        <br>
+        <label for="mail">Email</label>
+        <br>
+        <input type="email" name="email" id="mail" required>
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <br>
+        <input type="password" name="password" id="pass" minlength="8" required>
+        <br>
+        <br>
+        <label for="Gen" style="font-weight: bolder;">Gender</label>
+        <br>
+        <input type="radio" name="gender" id="Gen" value="1"> male <br>
+        <input type="radio" name="gender" id="Gen" value="0"> female <br>
+        <br>
+        <br>
+        <label for="ski" style="font-weight: bolder;">Skills</label>
+        <br>
+        <input type="checkbox" name="skill" id="ski" value="1" checked> reading <br>
+        <input type="checkbox" name="skill" id="ski" value="2" checked> swimming <br>
+        <input type="checkbox" name="skill" id="ski" value="3"> runing <br>
+        <input type="checkbox" name="skill" id="ski" value="4"> programming <br>
+        <br>
+        <br>
+        <label for="country" style="font-weight: bolder;">Select your Country</label>
+        <br>
+        <select name="countey" id="country" multiple>
+            <option value="jo">Jordan</option>
+            <option value="syr">Syria</option>
+            <option value="Qtr">Qatar</option>
+            <option value="ksa">KSA</option>
+        </select>
+        <br>
+        <br>
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <br>
+        <br>
+        <input type="submit" value="Create User" style="font-weight: bolder;">
+    </form>
+</body>
+</html>

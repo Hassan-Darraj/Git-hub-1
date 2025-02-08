@@ -1,0 +1,40 @@
+body {
+    background-image: url(coding.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    padding-bottom: 0px;
+    background-attachment: fixed;
+    background-size: 100% 70px;
+}
+h1 {
+    color: #8a2be2;
+}
+h2 {
+    color: #6690ab;
+}
+h3 {
+    color:rgba(148, 114, 174, 0.8);
+}
+
+#_color {
+    color:rgba(148, 114, 174, 0.8);
+}
+
+.intro {
+    color: #6690ab;
+}
+
+#Home {
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+    background-attachment: fixed;
+}
+#About {
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
+    background-attachment: fixed;
+}

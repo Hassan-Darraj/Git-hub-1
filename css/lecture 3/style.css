@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(218, 214, 208);
+    padding: 30px ;
+    border-radius: 15px;
+    align-items: center;
+}
+
+input{
+    background-color: orangered;
+    border-radius: 15px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-color: orangered;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30px;
+}
+
+.flexd{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(218, 214, 208);
+    padding: 30px ;
+    border-radius: 15px;
+    align-items: center;
+    margin: 50px;
+}
+.child{
+    border: 1px solid black;
+    height: 40px;
+    /* flex-basis: 300px; */
+    flex: 1;
+}
+
+.child-1{
+    border: 1px solid black;
+    height: 40px;
+    /* flex-basis: 300px; */
+    flex: 4;
+}
+
+
+
+/* ---------------- */
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+div{
+    padding: 8px;
+    border: 1px solid red;
+}
+.flex1{
+    flex: 1;
+}
+.flex3{
+    flex: 3;
+}

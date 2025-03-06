@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #0a0a0a !important;
+  padding: 10px 20px;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+button {
+  white-space: nowrap;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.myImg {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  color: #fff;
+}
+
+.headName {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.mainbtn {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.mainDivBtn {
+  border: 4px solid #103591;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.offcanvas {
+  width: 250px !important;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  padding: 10px;
+}
+
+.list-group-item a:hover {
+  color: #ffcc00;
+}
+
+.news-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.big-news {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.tall-img {
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+.card {
+  border: none;
+}
+
+.card img.rounded-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px; 
+}
+
+.third {
+  background-image: url('section3.png');
+  height: 100vh;
+  width: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.thirdLink{
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.Discover-More{
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.forthsec {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10%; 
+  left: 30%;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+
+.gallery-img-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 140%; 
+}
+
+.gallery-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-link {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;  
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+
+.logo-footer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: auto;
+}
+
+
+.social-icon {
+  background-color: #58585b;  
+  border-radius: 50%;          
+  padding: 10px;               
+  color: white;               
+  font-size: 16px;             
+  text-decoration: none;       
+}
+
+.social-icon:hover {
+  background-color: #4e4e50;  
+  color: #fff;                
+}

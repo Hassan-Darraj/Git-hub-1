@@ -1,0 +1,45 @@
+.a{
+    background-color: darkblue;
+    width: 100px;
+    height: 100px;
+    transform: translate(250px, 200px);
+}
+
+.b{
+    background-color: rgb(52, 183, 47);
+    width: 100px;
+    height: 100px;
+    transform: rotate(120deg);
+}
+
+.c{
+    background-color: rgb(105, 11, 13);
+    width: 100px;
+    height: 100px;
+    transform: scale(2,1);
+}
+
+
+.d{
+    background-color: rgb(127, 127, 228);
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+}
+
+.d:hover{
+    width: 300px;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  .f {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }

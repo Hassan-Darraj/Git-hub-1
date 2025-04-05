@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form onsubmit="return validate()">
+        <input type="text" name="username" id="username" placeholder="userName">
+        <p id="errorMessage1" style="color: red;"></p>
+   
+      
+        <input type="email" name="email" id="mail" placeholder="Email">
+        <p id="errorMessage2" style="color: red;"></p>
+
+        <input type="password" name="password" id="password" placeholder="Password">
+        <p id="errorMessage3" style="color: red;"></p>
+
+        <input type="password" name="password1" id="confirmPassword" placeholder="Confirm Password">
+        <p id="errorMessage4" style="color: red;"></p>
+        <p id="errorMessage5" style="color: red;"></p>
+        <button type="submit">Check</button>
+    </form>
+ 
+</body>
+</html>

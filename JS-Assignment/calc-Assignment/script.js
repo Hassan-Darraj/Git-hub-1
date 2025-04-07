@@ -59,6 +59,8 @@ function addOperationToEqa(number, operation) {
   let num1 = number.pop();
   let num2 = number.pop();
   let op = operation.pop();
+
+  
   switch (op) {
     case "+":
       number.push(num2 + num1);

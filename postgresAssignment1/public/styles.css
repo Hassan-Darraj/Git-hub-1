@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #4A90E2;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Post Item Style */
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  list-style-type: none;
+}
+
+li {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #4A90E2;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  border-color: #4A90E2;
+  outline: none;
+}
+
+button {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+
+/* Link and Button Styles */
+a, .btn {
+  background-color: #4A90E2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover, .btn:hover {
+  background-color: #357ABD;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  ul {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}

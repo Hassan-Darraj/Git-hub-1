@@ -11,10 +11,10 @@ import {
 const router = express.Router();
 
 router.get("/", getPosts);
- router.get("/posts/:id", getPostById);
+router.get("/posts/:id", getPostById);
 // router.post("/posts", createPost);
-// router.patch("/posts/:id", updatePostPartial);  
-// router.put("/posts/:id", updatePostFull);
-// router.delete("/posts/:id", deletePost);
+router.patch("/posts/:id", updatePostPartial);  
+router.put("/posts/:id", updatePostFull);
+router.delete("/posts/:id", deletePost);
 
 export default router;

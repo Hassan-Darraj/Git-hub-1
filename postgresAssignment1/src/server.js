@@ -4,7 +4,7 @@ import axios from "axios";
 import path from "path";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
-import postRouter from "./routes/postRoutes.js";
+import router from "./routes/postRoutes.js";
 
 dotenv.config();
 const app = express();
@@ -21,10 +21,8 @@ app.use(express.static(path.join(__dirname, "../public")));
 
 
 
-app.use('/app', postRouter);
+app.use('/', router);
 
 
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server running on port ${process.env.PORT}`);
-});
+app.listen(process.env.PORT, () => {});

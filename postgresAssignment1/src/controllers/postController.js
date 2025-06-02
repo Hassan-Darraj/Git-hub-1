@@ -1,12 +1,8 @@
 import pool from "../config/db.js";
 
 export const getPosts = async (req, res) => {
- 
-    console.log('Call posts')
-    const result = await pool.query("SELECT * FROM posts ORDER BY id");
-    res.render('index.ejs',{posts: result.rows});
-
- 
+  const result = await pool.query("SELECT * FROM posts");
+  res.render('index.ejs',{posts: result.rows});
 };
 
 export const getPostById = async (req, res) => {
@@ -81,6 +77,8 @@ export const updatePostFull = async (req, res) => {
     );
     if (result.rows.length > 0) {
       res.json(result.rows[0]);
+      res.render('modify.ejs',{posts: result.rows[0]});
+
     } else {
       res.status(404).json({ error: `Post id ${id} not found` });
     }
